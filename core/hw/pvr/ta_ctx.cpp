@@ -4,7 +4,7 @@
 #include "hw/sh4/sh4_sched.h"
 
 extern u32 fskip;
-extern u32 FrameCount;
+u32 FrameCount = 1;
 
 int frameskip=0;
 bool FrameSkipping=false;		// global switch to enable/disable frameskip

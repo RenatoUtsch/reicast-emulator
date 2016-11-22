@@ -2,6 +2,8 @@
 #include "ta.h"
 #include "pvr_regs.h"
 
+extern u32 FrameCount;
+
 //Vertex storage types
 struct Vertex
 {

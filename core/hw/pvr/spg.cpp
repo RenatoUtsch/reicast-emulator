@@ -5,6 +5,8 @@
 #include "oslib/oslib.h"
 #include "hw/sh4/sh4_sched.h"
 
+u32 VertexCount = 0;
+
 //SPG emulation; Scanline/Raster beam registers & interrupts
 //Time to emulate that stuff correctly ;)
 

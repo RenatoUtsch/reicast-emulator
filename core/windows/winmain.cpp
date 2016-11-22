@@ -735,6 +735,7 @@ void os_DoEvents()
 		if (msg.message == WM_QUIT)
 		{
 			sh4_cpu.Stop();
+			break;
 		}
 
 		// Translate the message and dispatch it to WindowProc()
